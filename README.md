@@ -2,7 +2,7 @@
   <img src="cubo.svg" alt="Dado 3D do Dice Mind" width="220">
 </p>
 
-<h1 align="center">🎲 Dice Mind — Mestre da Probabilidade</h1>
+<h1 align="center">🎲 Dice Mind — --Mestre da Probabilidade-</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/JOGO-EDUCATIVO-0D1B6E?style=for-the-badge" alt="Jogo educativo">
