@@ -1,0 +1,43 @@
+<p align="center">
+  <img src="logo.png" alt="Dice Mind" width="280">
+</p>
+
+<h1 align="center">Dice Mind: Mestre da Probabilidade</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Educativo-0D1B6E?style=for-the-badge" alt="Educativo">
+  <img src="https://img.shields.io/badge/Probabilidade-1E3A8A?style=for-the-badge" alt="Probabilidade">
+  <img src="https://img.shields.io/badge/Single%20Player-6C63FF?style=for-the-badge" alt="Single Player">
+  <img src="https://img.shields.io/badge/PC%20%26%20Web-C0C0C0?style=for-the-badge&labelColor=C0C0C0&color=C0C0C0" alt="PC e Web">
+</p>
+
+Jogo educativo de estratégia e simulação sobre **probabilidade e estatística**, desenvolvido em equipe para a disciplina PAC III (Engenharia de Software, Turma A).
+
+## Sobre o jogo
+
+O jogador é um aprendiz que quer se tornar um **Mestre dos Dados**. Antes de cada rodada, ele prevê o resultado de um lançamento (número exato, par ou ímpar, maior ou menor, faixa de valores ou soma) e depois analisa gráficos e estatísticas para ajustar sua estratégia.
+
+O adversário não é um inimigo, e sim a incerteza do acaso. Os erros não encerram o jogo: viram feedback educativo.
+
+## Principais características
+
+- Single player e gratuito, para PC e navegador
+- Dificuldade progressiva: de 1 dado de 6 faces até dados de 8, 10 e 12 faces
+- Gráficos de frequência e taxa de acerto em tempo real
+- Títulos por precisão, de **Iniciante** a **Mestre dos Dados**
+- Estética inspirada em dashboards de análise de dados
+
+## Paleta de cores
+
+![#0D1B6E](https://img.shields.io/badge/Azul%20escuro-0D1B6E?style=flat-square)
+![#1E3A8A](https://img.shields.io/badge/Azul%20médio-1E3A8A?style=flat-square)
+![#6C63FF](https://img.shields.io/badge/Roxo-6C63FF?style=flat-square)
+![#C0C0C0](https://img.shields.io/badge/Cinza%20metálico-C0C0C0?style=flat-square)
+![#F0F2F8](https://img.shields.io/badge/Cinza%20claro-F0F2F8?style=flat-square&labelColor=F0F2F8&color=F0F2F8)
+
+## Equipe
+
+- Gustavo Henrique Forte
+- Jenifer Alves
+- Felipe Silveira
+- Higor de Medeiros
