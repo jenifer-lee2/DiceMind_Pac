@@ -1,0 +1,19 @@
+name: CI NeuroMind
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: barichello/godot-ci:4.6
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar e importar o projeto Godot
+        run: godot --headless --path Codigo-fonte/Jogo --import
