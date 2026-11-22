@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://c8yvfti1inhco"]
+
+[ext_resource type="Script" uid="uid://cr8n0j88x5ul4" path="res://scripts/menu.gd" id="1_el213"]
+[ext_resource type="Texture2D" uid="uid://doek1fgnfojfn" path="res://Assets/imagens/Estudo Mágico à Luz da Lua.png" id="2_4umqm"]
+[ext_resource type="Texture2D" uid="uid://cuhdg8827mf8s" path="res://Assets/imagens/Logo NeuroMind com Cérebro Neon e Placa RLM.png" id="3_el213"]
+[ext_resource type="Texture2D" uid="uid://d4lr8uy8fjkkg" path="res://Assets/imagens/Botão Dourado do Modo Aventura (1).png" id="4_pp5m5"]
+[ext_resource type="Texture2D" uid="uid://b6p700fj10gwu" path="res://Assets/imagens/Ícone de alto-falante dourado em azul glossy.png" id="5_yt8fu"]
+[ext_resource type="Texture2D" uid="uid://gg8bev43qr7w" path="res://Assets/imagens/Ícone Dourado de Som Silenciado.png" id="6_4umqm"]
+[ext_resource type="Texture2D" uid="uid://cprrub7svu4so" path="res://Assets/imagens/Botão Azul “Sair” com Ícone Dourado.png" id="8_el213"]
+[ext_resource type="Texture2D" uid="uid://dhf3apc368sfg" path="res://Assets/imagens/Emblema de Engrenagem Dourada e Azul.png" id="8_yt8fu"]
+[ext_resource type="Texture2D" uid="uid://cmu5s6j7pf0g2" path="res://Assets/imagens/Dado Estudioso com Livro Roxo.png" id="10_thu7x"]
+
+[node name="MenuT10" type="Node2D" unique_id=575374808]
+script = ExtResource("1_el213")
+
+[node name="Background" type="TextureRect" parent="." unique_id=2014357992]
+offset_left = 2.0
+offset_right = 1299.0
+offset_bottom = 730.0
+texture = ExtResource("2_4umqm")
+expand_mode = 1
+
+[node name="EmblemaDouradoDiceMindDeProbabilidade" type="Sprite2D" parent="." unique_id=972820724]
+position = Vector2(644.99994, 158.00002)
+scale = Vector2(0.2573717, 0.27361885)
+texture = ExtResource("3_el213")
+
+[node name="Aventura" type="TextureButton" parent="." unique_id=1014162595]
+offset_left = 450.0
+offset_top = 321.0
+offset_right = 883.0
+offset_bottom = 481.0
+texture_normal = ExtResource("4_pp5m5")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Som" type="TextureButton" parent="." unique_id=1418672599]
+offset_top = 41.0
+offset_right = 154.0
+offset_bottom = 114.0
+texture_normal = ExtResource("5_yt8fu")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Sem-som" type="TextureButton" parent="Som" unique_id=1506430501]
+visible = false
+layout_mode = 0
+offset_top = 2.0
+offset_right = 154.0
+offset_bottom = 75.0
+texture_normal = ExtResource("6_4umqm")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Sair" type="TextureButton" parent="." unique_id=1586694393]
+offset_left = 411.0
+offset_top = 481.0
+offset_right = 925.0
+offset_bottom = 625.0
+texture_normal = ExtResource("8_el213")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Surpresa" type="TextureButton" parent="." unique_id=483622795]
+offset_left = 1085.0
+offset_top = 524.0
+offset_right = 1281.0
+offset_bottom = 680.0
+texture_normal = ExtResource("8_yt8fu")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="DadoSorri" type="Sprite2D" parent="." unique_id=1772556704]
+position = Vector2(212, 456)
+scale = Vector2(0.26128757, 0.24553923)
+texture = ExtResource("10_thu7x")
