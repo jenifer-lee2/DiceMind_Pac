@@ -707,7 +707,11 @@ func _atualizar_barra_progresso() -> void:
 # ==================================================
 
 func _confirmar_resposta() -> void:
-	if resposta_selecionada == -1 or aguardando_proxima:
+	if aguardando_proxima:
+		return
+
+	if resposta_selecionada == -1:
+		_falar("Escolha uma alternativa antes de confirmar!")
 		return
 
 	aguardando_proxima = true
